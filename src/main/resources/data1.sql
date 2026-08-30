@@ -1,0 +1,47 @@
+INSERT INTO product
+(name, description, brand, price, category, release_date, product_available, stock_quantity)
+VALUES
+('Swift',
+ 'A compact and fuel efficient hatchback suitable for city driving',
+ 'Maruti Suzuki',
+ 650000.00,
+ 'Hatchback',
+ '2024-05-10',
+ true,
+ 10),
+
+('Creta',
+ 'A comfortable SUV with modern features and spacious interior',
+ 'Hyundai',
+ 1200000.00,
+ 'SUV',
+ '2024-03-15',
+ true,
+ 10),
+
+('Nexon',
+ 'A compact SUV with strong safety features and stylish design',
+ 'Tata',
+ 900000.00,
+ 'SUV',
+ '2024-01-20',
+ true,
+ 10),
+
+('Thar',
+ 'A rugged off road SUV designed for adventure and tough terrain',
+ 'Mahindra',
+ 1500000.00,
+ 'SUV',
+ '2023-11-05',
+ true,
+ 10),
+
+('City',
+ 'A premium sedan offering comfortable driving and refined performance',
+ 'Honda',
+ 1300000.00,
+ 'Sedan',
+ '2024-02-12',
+ true,
+ 10);
