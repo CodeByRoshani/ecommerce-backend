@@ -23,7 +23,7 @@ import com.project.Demo_proj.Model.product;
 import com.project.Demo_proj.Service.ProductService;
 @RestController
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "https://ecomerence-frontend.netlify.app"})
 @RequestMapping("/api")
 public class ProductController {
 	@Autowired
